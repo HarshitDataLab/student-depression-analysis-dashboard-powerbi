@@ -51,7 +51,6 @@ SWITCH(
     "5. Below 5.0"
 )
 
-### Analytical Health Metrics
 Depression Rate = 
 DIVIDE(
     CALCULATE(COUNT('Student Depression'[id]), 'Student Depression'[Depression Status] = "Depressed"),
@@ -61,3 +60,10 @@ DIVIDE(
 
 Total Stress Score = 
 'Student Depression'[Academic Pressure] + 'Student Depression'[Financial Stress] + 'Student Depression'[Work Pressure]
+```
+### 🚀 Key Data Revelations
+Academic Performance Cushion: A clean downward slope was confirmed in depression rates as CGPA scores trend upward, verifying high academic standing as a protective buffer.
+
+The Compounding Lifestyle Trap: Students tracking less than 5 hours of sleep combined with unhealthy dietary profiles registered the highest absolute density of depression index scores.
+
+Workload Thresholds: A drastic tipping point is clearly evident on Page 2 when an academic pressure rating shifts from a 3 to a 4/5, causing diagnostic rates to spike exponentially.
