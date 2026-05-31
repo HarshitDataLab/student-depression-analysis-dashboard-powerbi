@@ -41,7 +41,6 @@ To facilitate meaningful aggregations and smooth out visualization noise, the ra
 
 ### Dynamic Segmentation Column
 ```dax
-```
 CGPA Range = 
 SWITCH(
     TRUE(),
@@ -53,7 +52,6 @@ SWITCH(
 )
 
 ### Analytical Health Metrics
-``
 Depression Rate = 
 DIVIDE(
     CALCULATE(COUNT('Student Depression'[id]), 'Student Depression'[Depression Status] = "Depressed"),
