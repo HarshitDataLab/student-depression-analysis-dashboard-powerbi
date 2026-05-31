@@ -50,3 +50,12 @@ SWITCH(
     'Student Depression'[CGPA] >= 5.0, "4. 5.0 - 6.9 Average",
     "5. Below 5.0"
 )
+
+### Analytical Health Metrics
+```dax
+Depression Rate = 
+DIVIDE(
+    CALCULATE(COUNT('Student Depression'[id]), 'Student Depression'[Depression Status] = "Depressed"),
+    COUNT('Student Depression'[id]),
+    0
+)
