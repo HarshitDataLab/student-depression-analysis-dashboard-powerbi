@@ -67,3 +67,17 @@ Academic Performance Cushion: A clean downward slope was confirmed in depression
 The Compounding Lifestyle Trap: Students tracking less than 5 hours of sleep combined with unhealthy dietary profiles registered the highest absolute density of depression index scores.
 
 Workload Thresholds: A drastic tipping point is clearly evident on Page 2 when an academic pressure rating shifts from a 3 to a 4/5, causing diagnostic rates to spike exponentially.
+
+### 📂 Technical Toolkit
+Core Application: Power BI Desktop (Version May 2026)
+
+Language Logic: DAX (Data Analysis Expressions) for analytical modeling
+
+Data Prep: Power Query for data type alignment and validation handling
+
+### How to Interact with the Report
+Clone this repository or download the .pbix dashboard file.
+
+Open the file directly within Power BI Desktop.
+
+Use the unified Left-Hand Slicer Panel (Age, Degree, City) to completely filter and contextualize every chart across all 3 pages dynamically.
