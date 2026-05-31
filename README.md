@@ -41,6 +41,7 @@ To facilitate meaningful aggregations and smooth out visualization noise, the ra
 
 ### Dynamic Segmentation Column
 ```dax
+```
 CGPA Range = 
 SWITCH(
     TRUE(),
@@ -52,10 +53,13 @@ SWITCH(
 )
 
 ### Analytical Health Metrics
-```dax
+``
 Depression Rate = 
 DIVIDE(
     CALCULATE(COUNT('Student Depression'[id]), 'Student Depression'[Depression Status] = "Depressed"),
     COUNT('Student Depression'[id]),
     0
 )
+
+Total Stress Score = 
+'Student Depression'[Academic Pressure] + 'Student Depression'[Financial Stress] + 'Student Depression'[Work Pressure]
